@@ -1,9 +1,5 @@
 #include "Reversi.h"
 
-//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-//TO DO: FIX 8 AND 9 ENTRY ERROR
-//&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-
 Reversi::Reversi(){
   player = playerToken();
   if(player == 'X'){
